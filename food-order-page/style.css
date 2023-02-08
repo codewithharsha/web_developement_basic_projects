@@ -1,0 +1,23 @@
+.food-back{
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 100vh;
+    background-size: cover;
+    color: #323f4b;
+}
+.food-card{
+    background-color: #f6c56e;
+    text-align: left;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+h1{
+    font-family: Bree Serif;
+}
+p{
+    font-family: Roboto;
+}
+.food-button{
+    font-family: Roboto;
+    background-color: #ffffff;
+}
