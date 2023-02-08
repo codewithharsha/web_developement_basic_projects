@@ -1,0 +1,14 @@
+.ex-back{
+    background-image:url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/codingbg.png");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    font-family: Bree Serif;
+}
+.text-div{
+    border: 4px solid #48ee59;
+    padding: 30px;
+    font-size: 35px;
+    background-color: #00000080;
+} 
