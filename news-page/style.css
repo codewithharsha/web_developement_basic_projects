@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.news-back{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+    font-family: "Roboto";
+}
+.news-card{
+    background-color: #ffffff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 30px;
+}
+h1{
+    color: #323f4b;
+    font-size: ;
+}
+p{
+    color: #7b8794;
+}
+.news-card-btn{
+    background-color: #323f4b;
+    color: #ffffff;
+}
