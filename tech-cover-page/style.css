@@ -1,0 +1,35 @@
+.adv-back{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size:cover;
+    font-family: "Roboto";
+}
+.adv-card{
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px;
+}
+.adv-btn-1{
+   color: #171f46; 
+   background-color: #ffffff;
+   border: 1px solid #d7dfe9;
+   padding: 10px;
+   width: 150px;
+   margin: 4px;
+}
+.adv-btn-2{
+    color: #ffffff;
+    background-color: #5752ab;
+    border: 1px solid #d7dfe9;
+    padding: 10px;
+    width: 150px;
+    margin: 4px;
+}
+h1{
+    color: #5752ab;
+    font-family: "Bree Serif";
+}
+p{
+    color: #323f4b;
+}
