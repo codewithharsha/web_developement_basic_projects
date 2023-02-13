@@ -1,0 +1,23 @@
+from sklearn import datasets,linear_model,metrics
+from sklearn.model_selection import train_test_split
+import pandas as pd
+import matplotlib.pyplot as plt
+#loading data
+data = pd.read_csv("attendance.csv")
+x=data[['attendance']]
+y=data['marks']
+print(data.shape)
+#visulation of data
+plt.plot(x,y)
+#spliting of data for training and testing
+x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.20)
+print(x_train.shape)
+print(y_train.shape)
+print(x_test.shape)
+print(y_test.shape)
+model = linear_model.LinearRegression()
+model.fit(x_train,y_train)
+predcited_value = model.predict(x_test)
+#r2 score obtained by comparing y-test and predcited_value
+r2 = metrics.r2_score(y_test,predcited_value)
+print(r2)
